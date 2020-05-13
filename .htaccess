@@ -1,0 +1,6 @@
+Options +FollowSymlinks
+RewriteEngine on
+ErrorDocument 404 http://10.7.10.26/hrksl/page404.html
+
+RewriteRule ^([a-z]{3}|[A-Z]{3}|[a-z]{2}|[A-Z]{2})$ index1.php?site=$1 [L,QSA]
+RewriteRule ^([a-z]{3}|[A-Z]{3}|[a-z]{2}|[A-Z]{2})/$ index1.php?site=$1 [L,QSA]

@@ -1,0 +1,13 @@
+﻿/* W3.CSS 2.96 Feb 2017 by Jan Egil and Borge Refsnes */
+.w3-image{max-width:100%;height:auto}
+.w3-table,table{border-collapse:collapse;border-spacing:0;width:100%;display:table}
+table{border:1px solid #ccc}
+
+.w3-bordered tr,table tr{border-bottom:1px solid #ddd}
+.w3-striped tbody tr:nth-child(even){background-color:#f1f1f1}
+table tr:nth-child(odd){background-color:#fff}
+table tr:nth-child(even){background-color:#f1f1f1}
+.w3-hoverable tbody tr:hover,.w3-ul.w3-hoverable li:hover{background-color:#ccc}
+.w3-centered tr th,.w3-centered tr td{text-align:center}
+.w3-table td,.w3-table th,table td,table th{padding:5px 5px;display:table-cell;text-align:left;vertical-align:top}
+.w3-table th:first-child,.w3-table td:first-child,table th:first-child,table td:first-child{padding-left:16px}
